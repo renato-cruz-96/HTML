@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+
+      html, body {
+        background-color: lightgrey;
+        font-family: "Inter", sans-serif;
+      }
+
+      button {
+        background: none;
+        color: inherit;
+        border: none;
+        padding: 0;
+        font: inherit;
+        cursor: pointer;
+        outline: inherit;
+      }
+
+      .card {
+        width: 300px;
+        height: auto;
+        background-color: rgb(255, 255, 255);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+
+      .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 20px;
+        gap: 15px;
+      }
+
+      .container img {
+        width: 15%;
+      }
+
+      .container h6 {
+        margin: 0;
+        font-size: 15px;
+      }
+
+      .description-text {
+        font-size: 12px;
+      }
+
+      .btn {
+        display: flex;
+        font-size: 12px;
+      }
+
+      .btn-text {
+        background-color: rgb(76, 111, 255);
+        padding: 10px 15px;
+        color: rgb(255, 255, 255);
+        border-radius: 8px;
+      }
+    </style>
+
+</head>
+<body>
+  <main>
+    <section class="card">
+      <div class="container">
+        <img src="./assets/Icon.png" alt="Icon">
+
+        <h6>Payment Successfull</h6>
+        <span class="description-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolor, inventore!</span>
+
+        <button class="btn">
+          <span class="btn-text">Complete</span>
+        </button>
+      </div>
+    </section>
+
+  </main>
+</body>
+</html>

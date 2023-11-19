@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+
+    <style>
+     html {
+      background-color: rgb(211, 211, 211);
+      font-family: 'Inter', sans-serif;
+      font-size: 14px;
+
+     }
+     
+     .card {
+      background-color:rgb(255, 255, 255);
+      width: 300px;
+      height: auto;
+      border-radius: 15px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 10px;
+     }
+
+     .image {
+      width: 100%;
+      height: auto;
+      margin-bottom: 20px;
+     }
+
+     .products {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      margin-bottom: 20px;
+
+     }
+
+     .list {
+      display: flex;
+      justify-content: space-between;
+      padding: 0 10px;
+      font-size: 12px;
+     }
+
+     .list_title {
+      font-weight: 600;
+     }
+
+     .list_title--number {
+      background-color: rgb(65, 105, 225);
+      color: rgb(255, 255, 255);
+      padding:1px 10px;
+      border-radius: 10px;
+      box-shadow: 0 3px 3px rgb(0, 0, 0, 0.25);
+     }
+
+     .list_title--text {
+      font-size: 14px;
+     }
+
+     .number {
+      background-color: rgb(235, 235, 235);
+      padding:1px 10px;
+      border-radius: 10px;
+      
+     }
+    </style>
+  </head>
+  <body>
+    <main>
+      <section class="card">
+        
+        <img class="image" src="./assets/rounded.png" alt="Earphones">
+
+        <section class= products>
+          <div class="list_title list">
+
+            <span class="list_title--text">Product list</span>
+            <span class="list_title--number">1245</span>
+
+          </div>
+  
+          <div class="list">
+
+            <span class="text">First option</span>
+            <span class="number">23</span>
+
+          </div>
+          
+          <div class="list">
+
+            <span class="text">Second option</span>
+            <span class="number">1</span>
+
+          </div>
+
+          <div class="list">
+
+            <span class="text">Third option</span>
+            <span class="number">7</span>
+
+          </div>
+
+          <div class="list">
+
+            <span class="text">Fourth option</span>
+            <span class="number">23</span>
+
+          </div>
+        </section>
+      </section>
+      
+    </main>
+  </body>
+</html>
