@@ -1,0 +1,14 @@
+.sub_nav {
+  @include second-back-color;
+  padding: 0.7rem;  
+  display: flex;
+  justify-content: space-between;
+  text-align: justify;
+  flex-wrap: wrap;
+  line-height: 2;
+  z-index: 1;
+  
+  a {
+    @include second-text-color;
+  }
+}

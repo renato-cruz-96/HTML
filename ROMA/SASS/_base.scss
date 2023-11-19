@@ -1,0 +1,20 @@
+// TYPOGRAPHY
+@import url('https://fonts.googleapis.com/css2?family=DotGothic16&family=Inter:wght@400;700&display=swap');
+
+html,
+body {
+  font-family: "DotGothic16", sans-serif;
+  margin: 0 auto;
+  background-color: rgb(30, 30, 30);
+  color: white;
+  display: relative;
+}
+
+// BUTTONS
+
+button {
+  padding: 0;
+  border: 0;
+  background: none;
+  font-family: inherit;
+}

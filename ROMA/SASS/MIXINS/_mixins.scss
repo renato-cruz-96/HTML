@@ -1,0 +1,15 @@
+@mixin prime-back-color {
+  background-color: rgb(30, 30, 30);
+}
+
+@mixin second-back-color {
+  background-color: rgb(255, 255, 255);
+}
+
+@mixin prime-text-color {
+  color: rgb(255, 255, 255);
+}
+
+@mixin second-text-color {
+  color: rgb(30, 30, 30);
+}

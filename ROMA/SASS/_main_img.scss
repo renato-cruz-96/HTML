@@ -1,0 +1,11 @@
+main {
+  position: relative;
+  .main_img {
+    position: absolute;
+    top: 200px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    z-index: -1;
+  }
+}

@@ -1,0 +1,39 @@
+.text {
+  padding: 0.8rem;
+  margin-bottom: 3rem;
+  .text_title{
+    margin-bottom: 1rem;
+    letter-spacing: 2px;
+  }
+  ul {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    text-align: justify;
+    line-height: 1.5;
+    font-size: 0.8rem;
+    margin-bottom: 2.5rem;
+  }
+
+  .btns {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .text__maps{
+      @include second-text-color;
+      @include second-back-color;
+      padding: 0.7rem 1.5rem;
+      margin-left: 0.7rem;
+      letter-spacing: 2px;
+    }
+    .up-btn {
+      @include prime-text-color;
+      border: 2px solid white;
+      padding: 1rem;
+      margin-right: 0.7rem;
+      letter-spacing: 2px;
+      border-radius: 100%;
+    }
+  }   
+}
+ 
