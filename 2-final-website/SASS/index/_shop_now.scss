@@ -1,0 +1,46 @@
+.shop_now {
+  background-color: rgb(247, 238, 227);
+  padding: 3rem 0 0 3.5rem;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+  .shop_now__text {
+    width: 300px;
+    @include responsive-no-styles;
+    .shop_now__text__title {
+      text-transform: uppercase;
+      @include main-font-size;
+      letter-spacing: 0.5em;
+      text-decoration-line: underline;
+      margin-bottom: 2rem;
+      @include font-italics;
+    }
+    .shop_now__text__description {
+      font-size: 1rem;
+      line-height: 1.7;
+      font-weight: 100;
+      margin-bottom: 1.2rem;
+      @include font-italics;
+      .shop_now__text__description__span {
+        @include font-bold;
+        @include font-italics;
+      }
+    }
+    .shop_now__btn {
+      background: transparent;
+      padding: 0;
+    }
+    .shop_now__btn:hover {
+      box-shadow: none;
+      color: rgb(69, 69, 69);
+    }
+  }
+  .shop_now__image {
+    display: flex;
+    justify-content: flex-end;
+    @include responsive-no-styles;
+    .shop_now__image__img {
+      width: 45dvw;
+      min-width: 300px;
+    }
+  }
+}

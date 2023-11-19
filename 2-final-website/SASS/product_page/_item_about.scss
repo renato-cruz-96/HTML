@@ -1,0 +1,30 @@
+.item_page__about {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin-bottom: 4rem;
+  .item_page__about__title {
+    font-size: 1.5rem;
+  }
+  .item_page__about__description {
+    font-size: 0.8rem;
+    line-height: 1.5;
+  }
+  .item_page__about__features {
+    display: flex;
+    margin: 0;
+    @include main-font-size;
+    justify-content: flex-start;
+    .item_page__about__features__box {
+      @include responsive-no-styles;
+      .item_page__about__features__box__title {
+        margin-bottom: 0.5rem;
+        @include font-bold;
+      }
+      .item_page__about__features__box__text {
+        max-width: 50ch;
+        line-height: 1.5;
+      }
+    }
+  }
+}

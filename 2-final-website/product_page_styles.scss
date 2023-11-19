@@ -1,0 +1,17 @@
+@import "./SASS/BASICS/base";
+@import "./SASS/MIXINS/mixins";
+@import "./SASS/MIXINS/m_queries_bp.scss";
+
+@import "./SASS/COMPONENTS/buttons";
+
+@import "./SASS/COMMON_SECTIONS/nav";
+@import "./SASS/product_page/item_page";
+@import "./SASS/product_page/item_wrapper";
+@import "./SASS/product_page/item_size";
+@import "./SASS/product_page/item_about";
+@import "./SASS/product_page/item_features";
+@import "./SASS/product_page/item_dur";
+@import "./SASS/product_page/item_res";
+@import "./SASS/product_page/recommendation";
+@import "./SASS/COMMON_SECTIONS/subscribe_socials";
+@import "./SASS/COMMON_SECTIONS/footer";

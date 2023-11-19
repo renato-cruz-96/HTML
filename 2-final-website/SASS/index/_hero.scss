@@ -1,0 +1,32 @@
+.hero {
+  background-image: url("assets/header.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 470px;
+  padding: 3rem 5rem;
+  
+  .hero__text__heading {
+    font-size: 1.5rem;
+    color: white;
+    margin-bottom: 1rem;
+  }
+  .hero__text__btn {
+    display: inline-block;
+  }
+}
+
+@include media-q("sm") {
+  .hero__text {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: flex-end;
+    .hero__text__heading {
+      font-size: 1.3rem;
+    }
+    .hero__text__btn {
+      width: fit-content;
+    }
+  }
+}

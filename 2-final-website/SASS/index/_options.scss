@@ -1,0 +1,30 @@
+.options {
+  padding: 2rem 0;
+  width: 90%;
+  .options__heading {
+    @include h2-font-styles;
+  }
+  .options__cards {
+    margin: 0;
+    gap: 1rem;
+    .options__cards__card {
+      position: relative;
+      @include responsive-no-styles;
+      width: 300px;
+      cursor: pointer;
+      .options__cards__card__img {
+        width: 100%;
+      }
+      .options__cards__card__title {
+        position: absolute;
+        @include main-font-size;
+        left: 1em;
+        bottom: 1em;
+      }
+    }
+
+    .options__cards__card:hover {
+      box-shadow: 0 0.5px 1px 1px rgb(93, 93, 93, 0.25);
+    }
+  }
+}

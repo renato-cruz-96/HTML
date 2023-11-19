@@ -1,0 +1,29 @@
+.item_page__size {
+  margin-bottom: 7rem;
+  .item_page__size__title {
+    display: flex;
+    @include h2-font-styles;
+  }
+  .item_page__size__description {
+    
+    .item_page__size__description__table {
+      @include responsive-no-styles;
+      display: flex;
+      flex-direction: column;
+      @include main-font-size;
+      color: rgb(0, 0, 0, 0.25);
+
+      table {
+        tr {
+          border-bottom: 2px solid rgb(0, 0, 0, 0.25);
+          td {
+            padding: 0.5rem 0;
+          }
+        }
+      }
+    }
+    .item_page__size__description__img {
+      @include responsive-no-styles;
+    }
+  }
+}

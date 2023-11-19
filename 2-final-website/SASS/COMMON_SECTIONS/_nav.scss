@@ -1,0 +1,45 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.2rem 1rem;
+  width: 100%;
+  
+  a .logo {
+    width: 7rem;
+  }
+
+  .menu {
+    display: flex;
+    gap: 2.5rem;
+    .menu__btn {
+      display: flex;
+      align-items: center;
+      gap: 0.3rem;
+      cursor: pointer;
+    }
+    .menu__btn:hover {
+      color: rgb(69, 69, 69);
+    }
+  }
+  .hamburguer {
+    display: none;
+    .hamburguer__img {
+      width: 20px;
+      cursor: pointer;
+    }
+    .hamburguer_img:hover {
+      box-shadow: 0 0.5px 1px 1px rgb(93, 93, 93, 0.25);
+    }
+  }
+
+}
+
+@include media-q("md") {
+  .menu {
+    display: none !important;
+  }
+  .hamburguer {
+    display: block !important;
+  }
+}

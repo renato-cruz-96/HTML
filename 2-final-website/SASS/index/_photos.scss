@@ -1,0 +1,28 @@
+.photos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding: 2rem 0;
+
+  .photos__heading {
+    font-weight: 500;
+    @include h2-font-styles;
+  }
+  .photos__box {
+    display: flex;
+    flex-wrap: nowrap;
+    max-width: 100vw;
+    overflow: auto;
+    gap: 1rem;
+    padding: 0.7rem;
+    .photos__box__card {
+      width: 200px;
+      @include responsive-no-styles;
+      flex-shrink: 0;
+      .photos__box__card__img {
+        width: 100%;
+      }
+    }
+  }
+}

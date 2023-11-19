@@ -1,0 +1,24 @@
+.advantages {
+  display: flex;
+  background-color: rgb(247, 238, 227);
+  
+  .advantages__box {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 2rem 5rem;
+
+    .advantages__box__each {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      @include main-font-size;
+      line-height: 1.2;
+      border: 0;
+      .advantages__box__each__img {
+        width: 70px;
+        aspect-ratio: 1;
+      }
+    }
+  }
+}

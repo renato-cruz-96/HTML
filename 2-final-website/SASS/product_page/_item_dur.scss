@@ -1,0 +1,44 @@
+.item_page__durability {
+  gap: 1rem;
+  margin-bottom: 2rem;
+  .item_page__durability__vid {
+    display: flex;
+    @include responsive-no-styles;
+    flex: 1;
+    height: 450px;
+    object-fit: cover;
+    
+    
+  }
+  .item_page__durability__description {
+    display: flex;
+    flex-direction: column;
+    @include responsive-no-styles;
+    flex: 1;
+    .item_page__durability__description__title {
+      font-size: 1.5rem;
+      margin-bottom: 1rem;
+    }
+    .item_page__durability__description__text {
+      font-size: 0.8rem;
+      line-height: 1.5;
+      margin-bottom: 2rem;
+    }
+    .item_page__durability__description__topics {
+      display: flex;
+      @include main-font-size;
+      gap: 1rem;
+      .item_page__durability__description__topics__topic {
+        display: flex;
+        flex-direction: column;
+        gap: 1em;
+        .item_page__durability__description__topics__topic__title {
+          @include font-bold;
+        }
+        .item_page__durability__description__topics__topic__text {
+          line-height: 1.5;
+        }
+      }
+    }
+  }
+}

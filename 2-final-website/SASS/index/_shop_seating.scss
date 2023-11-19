@@ -1,0 +1,13 @@
+.shop_seating {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 2rem;
+  .shop_seating__heading {
+    @include h2-font-styles;
+  }
+  .shop_seating__img {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+}

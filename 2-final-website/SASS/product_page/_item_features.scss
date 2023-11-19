@@ -1,0 +1,25 @@
+.item_page__features {
+  margin-bottom: 5rem;
+  .item_page__features__title {
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+  .item_page__features__cards {
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+    flex-wrap: wrap;
+    .item_page__features__cards__card {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      .item_page__features__cards__card__img {
+        width: 150px;
+      }
+      .item_page__features__cards__card__text {
+        @include main-font-size;
+        @include font-bold;
+      }
+    }
+  }
+}

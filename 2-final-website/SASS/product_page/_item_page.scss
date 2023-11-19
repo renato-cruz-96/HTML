@@ -1,0 +1,9 @@
+.item_page {
+  padding: 5rem;
+}
+
+@include media-q("sm") {
+  .item_page {
+    padding: 5rem 1rem;
+  }
+}

@@ -1,0 +1,26 @@
+.recommendation_section {
+  .recommendation_section__products {
+    gap: 1rem;
+    margin-bottom: 3rem;
+    .recommendation_section__products__product {
+      display: flex;
+      flex-direction: column;
+      width: 320px;
+      @include responsive-no-styles;
+      @include main-font-size;
+      gap: 0.7em;
+      .recommendation_section__products__product__img {
+        width: 100%;
+      }
+      .recommendation_section__products__product__title {
+        @include font-bold;
+      }
+      .recommendation_section__products__product__price {
+        font-weight: 100;
+        color: rgb(0, 0, 0, 0.5)
+      }
+    }
+  }
+}  
+  
+  

@@ -1,0 +1,48 @@
+.seating_section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3rem;
+
+  .seating_section__text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-self: flex-start;
+    width: clamp(200px, 35%, 400px);
+    margin-bottom: 2rem;
+    .seating_section__text__heading {
+      @include h2-font-styles;
+    }
+    .seating_section__text__description {
+      @include main-font-size;
+      font-weight: 100;
+    }
+  }
+  .seating_section__products {
+    gap: 1rem;
+    margin-bottom: 3rem;
+    .seating_section__products__product {
+      display: flex;
+      flex-direction: column;
+      width: 300px;
+      @include responsive-no-styles;
+      @include main-font-size;
+      gap: 0.7em;
+      .seating_section__products__product__title {
+        @include font-bold;
+      }
+      .seating_section__products__product__img {
+        width: 100%;
+      }
+      .seating_section__products__product__price {
+        font-weight: 100;
+        color: rgb(0, 0, 0, 0.5)
+      }
+    }
+  }
+  .seating_section__btn {
+    display: flex;
+    text-align: center;
+  }
+}
