@@ -1,0 +1,16 @@
+@import "./SASS/BASICS/base";
+@import "./SASS/MIXINS/mixins";
+@import "./SASS/MIXINS/m_queries_bp.scss";
+
+@import "./SASS/COMPONENTS/buttons";
+
+@import "./SASS/COMMON_SECTIONS/nav";
+@import "./SASS/index/hero";
+@import "./SASS/index/options";
+@import "./SASS/index/advantages";
+@import "./SASS/index/photos";
+@import "./SASS/index/shop_now";
+@import "./SASS/index/spaces";
+@import "./SASS/index/shop_seating";
+@import "./SASS/COMMON_SECTIONS/subscribe_socials";
+@import "./SASS/COMMON_SECTIONS/footer";
